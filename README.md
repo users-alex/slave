@@ -1,0 +1,2 @@
+# slave
+remote slave user
