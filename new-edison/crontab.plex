@@ -1,0 +1,3 @@
+* * * * * [ -x /Users/slave/bin/gitpull ] && (cd /Users/slave;/Users/slave/bin/gitpull 2>&1 > /Users/slave/log/crontab-gitpull.log) &
+* * * * * [ -x /Users/slave/bin/connect-master-ssh-plex ] && (/Users/slave/bin/connect-master-ssh-plex 2>&1 > /Users/slave/log/crontab-connect-master-ssh-plex.log) &
+* * * * * [ -x /Users/slave/bin/connect-master-web-plex ] && (/Users/slave/bin/connect-master-web-plex 2>&1 > /Users/slave/log/crontab-connect-master-web-plex.log) &
