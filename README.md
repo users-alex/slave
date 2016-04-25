@@ -1,2 +1,3 @@
 # slave
-remote slave user
+----------------
+remove slaves
